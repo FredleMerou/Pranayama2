@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranayama App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showTab('entrainement')">Entraînement</a></li>
+            <li><a href="#" onclick="showTab('controle')">Contrôle</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <div id="entrainement" class="tab">
+            <h2>Entraînement</h2>
+            <h3>Entraînements par défaut</h3>
+            <ul>
+                <li>Vider son esprit</li>
+                <li>Se relaxer</li>
+                <li>Combattre l'anxiété</li>
+                <li>Avoir plus d'énergie</li>
+                <li>Favoriser l'équilibre</li>
+                <li>Anti-stress</li>
+                <li>Diminuer l'appétit</li>
+                <li>Arrêter de fumer</li>
+            </ul>
+            <h3>Entraînements personnalisés</h3>
+            <p>Créer vos propres séances en ajustant les paramètres selon vos besoins spécifiques.</p>
+            <h3>Entraînements prédéfinis</h3>
+            <ul>
+                <li>Pranayama: Anulom Vilom, Bhastrika, Nadi Shodhana, etc.</li>
+                <li>Pratiques bouddhistes tibétaines: Tummo</li>
+                <li>Taiji: respiration Ha</li>
+                <li>Méthodes recommandées par des professionnels de santé: respiration 4-7-8, méthode Buteyko, etc.</li>
+            </ul>
+        </div>
+        <div id="controle" class="tab">
+            <h2>Contrôle</h2>
+            <p>Surveiller et ajuster en temps réel les paramètres de votre séance, tels que la durée des phases respiratoires, le nombre de cycles et l'intensité de l'entraînement.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

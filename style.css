@@ -19,3 +19,18 @@ nav ul li {
 #entrainement {
     display: block;
 }
+
+#entrainement h2,
+#controle h2 {
+    color: #333;
+}
+
+#entrainement ul,
+#controle ul {
+    padding-left: 20px;
+}
+
+#entrainement ul li,
+#controle ul li {
+    margin-bottom: 5px;
+}
